@@ -1,0 +1,38 @@
+.place {
+    display: grid;
+    grid-template-columns: 460px auto;
+    grid-template-rows: auto minmax(460px, auto);
+    grid-gap: 48px 40px;
+    grid-template-areas:
+    "place__title place__website"
+    "place__image place__paragraphs";
+    margin: 0 0 80px;
+    padding: 0;
+  }
+  
+  @media screen and (max-width: 1024px) {
+    .place {
+      grid-template-columns: 440px auto;
+      grid-template-rows: auto minmax(440px, auto);
+      grid-gap: 48px 32px;
+    }
+  }
+  
+  @media screen and (max-width: 830px) {
+    .place {
+      grid-template-columns: 340px auto;
+      grid-template-rows: auto minmax(340px, auto);
+      grid-gap: 48px 28px;
+      margin-bottom: 73px;
+    }
+  }
+  
+  @media screen and (max-width: 650px) {
+    .place {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 32px;
+      margin-bottom: 50px;
+    }
+  }

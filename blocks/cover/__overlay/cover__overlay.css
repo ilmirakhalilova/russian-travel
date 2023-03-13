@@ -1,10 +1,11 @@
+/*Прошу прощения, не увидела, что надо ещё развернуть Ваш коммент. Спасибо, что подсветили в коде.*/
 .cover__overlay {
     background-image: url(../../../images/cover-trains.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     max-width: 1184px;
-    height: 740px;
+    min-height: 740px;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -34,30 +35,30 @@
   
   @media screen and (max-width: 1024px) {
     .cover__overlay {
-      max-height: 640px;
+      min-height: 640px;
     }
   }
   
   @media screen and (max-width: 768px) {
     .cover__overlay {
-      max-height: 480px;
+      min-height: 480px;
     }
   }
   
   @media screen and (max-width: 600px) {
     .cover__overlay {
-      max-height: 375px;
+      min-height: 375px;
     }
   }
   
   @media screen and (max-width: 425px) {
     .cover__overlay {
-      max-height: 265px;
+      min-height: 265px;
     }
   }
   
   @media screen and (max-width: 320px) {
     .cover__overlay {
-      max-height: 200px;
+      min-height: 200px;
     }
   }

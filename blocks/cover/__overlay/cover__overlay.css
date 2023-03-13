@@ -4,7 +4,7 @@
     background-position: center;
     background-repeat: no-repeat;
     max-width: 1184px;
-    max-height: 740px;
+    height: 740px;
     display: flex;
     align-items: center;
     flex-direction: column;

@@ -3,8 +3,8 @@
     font-size: 18px;
     line-height: 22px;
     text-align: center;
-    /*margin: 16px 16px 245px;*/
-    margin: 0 auto 245px;
+    margin-top: 32px;
+    margin-bottom: 0;
     padding: 0;
     z-index: 2;
     max-width: 360px;

@@ -14,7 +14,6 @@
       max-width: 340px;
       font-size: 48px;
       line-height: 51px;
-      margin: 0;
     }
   }
   
@@ -23,12 +22,5 @@
       max-width: 255px;
       font-size: 32px;
       line-height: 35px;
-      margin: 0;
-    }
-  }
-  
-  @media screen and (max-width: 320px) {
-    .cover__title {
-      margin: 99px 16px 16px;
     }
   }
